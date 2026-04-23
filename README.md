@@ -276,3 +276,4 @@ Discord will send a `PING` to verify it. Your endpoint will respond with `PONG` 
 - **config.json vs .env**: Secrets (tokens, keys) are in `.env`. Non-secret settings (IDs, durations) are in `config.json` so they can be reviewed in source control without risk.
 # VeriFried-bot
 # VeriFried-bot
+# VeriFried-bot
