@@ -278,3 +278,4 @@ Discord will send a `PING` to verify it. Your endpoint will respond with `PONG` 
 # VeriFried-bot
 # VeriFried-bot
 # VeriFried-bot-production
+# VeriFried-bot-production

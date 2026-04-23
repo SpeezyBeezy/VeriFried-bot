@@ -1,9 +1,9 @@
 {
   "discord": {
-    "guildId": "YOUR_GUILD_ID",
-    "verificationChannelId": "YOUR_PRIVATE_ADMIN_CHANNEL_ID",
-    "verifiedRoleId": "YOUR_VERIFIED_ROLE_ID",
-    "adminRoleIds": ["YOUR_ADMIN_ROLE_ID", "YOUR_MOD_ROLE_ID"]
+    "guildId": "1495067815445794997",
+    "verificationChannelId": "1495069723107524739",
+    "verifiedRoleId": "1496822131298664578",
+    "adminRoleIds": ["1496822296671813672", "1496822398421565541"]
   },
   "tokens": {
     "expirySeconds": 180,
