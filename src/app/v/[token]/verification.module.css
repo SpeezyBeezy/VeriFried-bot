@@ -1,0 +1,133 @@
+/* src/app/v/[token]/verification.module.css */
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0d0d0f;
+  padding: 1rem;
+  font-family: 'gg sans', 'Noto Sans', 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.card {
+  background: #1e1f22;
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  width: 100%;
+  max-width: 440px;
+  animation: fadeUp 0.35s ease both;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.logoText {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.02em;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  animation: fadeUp 0.25s ease both;
+}
+
+.heading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #f2f3f5;
+  margin: 0 0 0.75rem;
+  letter-spacing: -0.02em;
+}
+
+.subtext {
+  font-size: 0.95rem;
+  color: #b5bac1;
+  line-height: 1.6;
+  margin: 0 0 1.25rem;
+  max-width: 340px;
+}
+
+.infoBox {
+  background: rgba(88,101,242,0.08);
+  border: 1px solid rgba(88,101,242,0.2);
+  border-radius: 8px;
+  padding: 0.9rem 1.1rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  width: 100%;
+}
+
+.infoBox p {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #8b92f8;
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.infoBox ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  list-style: disc;
+}
+
+.infoBox li {
+  font-size: 0.88rem;
+  color: #b5bac1;
+  line-height: 1.7;
+}
+
+.button {
+  background: #5865F2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.15s, transform 0.1s;
+  letter-spacing: -0.01em;
+}
+
+.button:hover {
+  background: #4752c4;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.statusText {
+  color: #b5bac1;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.successIcon,
+.errorIcon {
+  margin-bottom: 1.25rem;
+}

@@ -1,0 +1,25 @@
+{
+  "discord": {
+    "guildId": "YOUR_GUILD_ID",
+    "verificationChannelId": "YOUR_PRIVATE_ADMIN_CHANNEL_ID",
+    "verifiedRoleId": "YOUR_VERIFIED_ROLE_ID",
+    "adminRoleIds": ["YOUR_ADMIN_ROLE_ID", "YOUR_MOD_ROLE_ID"]
+  },
+  "tokens": {
+    "expirySeconds": 180,
+    "cooldownSeconds": 180,
+    "bytesOfEntropy": 32
+  },
+  "rateLimits": {
+    "interactionsPerMinute": 10,
+    "verificationPagePerMinute": 5
+  },
+  "vpn": {
+    "enabled": true,
+    "flagAsRiskyThreshold": 75
+  },
+  "features": {
+    "geoLookup": true,
+    "blacklistCheck": true
+  }
+}

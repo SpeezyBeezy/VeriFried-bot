@@ -1,0 +1,14 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "functions": {
+    "src/app/api/interactions/route.ts": {
+      "maxDuration": 10
+    },
+    "src/app/api/v/route.ts": {
+      "maxDuration": 15
+    }
+  }
+}
