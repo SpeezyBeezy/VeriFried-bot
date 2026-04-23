@@ -275,3 +275,4 @@ Discord will send a `PING` to verify it. Your endpoint will respond with `PONG` 
 - **Header storage**: Only an allowlisted subset of headers is stored. Authorization and cookie headers are never persisted.
 - **config.json vs .env**: Secrets (tokens, keys) are in `.env`. Non-secret settings (IDs, durations) are in `config.json` so they can be reviewed in source control without risk.
 # VeriFried-bot
+# VeriFried-bot
